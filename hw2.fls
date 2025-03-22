@@ -122,6 +122,11 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.e
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT ./case_one.jpeg
+INPUT ./case_one.jpeg
+INPUT ./case_one.jpeg
+INPUT ./case_one.jpeg
+INPUT ./case_one.jpeg
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT hw2.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

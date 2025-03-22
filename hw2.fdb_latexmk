@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1742677553.38339 "/Users/admin/Desktop/CS5001/hw2/hw2.tex" "hw2.pdf" "hw2" 1742677554.69488 2
-  "/Users/admin/Desktop/CS5001/hw2/hw2.tex" 1742677551.7149 14165 504a88eb594ef21a68f47a1a11daad82 ""
+["pdflatex"] 1742678246.87491 "/Users/admin/Desktop/CS5001/hw2/hw2.tex" "hw2.pdf" "hw2" 1742678247.81359 2
+  "/Users/admin/Desktop/CS5001/hw2/hw2.tex" 1742678245.51557 14968 1e6d7622a1a007e92cd5c94802521705 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
@@ -80,9 +80,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1739840401.11152 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1739840359 8221431 d72b043d28ca387332694ef0884594f5 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "case_one.jpeg" 0 -1 0 ""
-  "hw2.aux" 1742677554.44492 408 c7adaa9e0b1bb2072cd8de3c2c10f1b3 "pdflatex"
-  "hw2.tex" 1742677551.7149 14165 504a88eb594ef21a68f47a1a11daad82 ""
+  "case_one.jpeg" 1742677594.34873 164670 fd46141d5695bff404ce28ec8d72e8ff ""
+  "case_two.jpeg" 0 -1 0 ""
+  "hw2.aux" 1742678247.70504 408 c7adaa9e0b1bb2072cd8de3c2c10f1b3 "pdflatex"
+  "hw2.tex" 1742678245.51557 14968 1e6d7622a1a007e92cd5c94802521705 ""
   (generated)
   "hw2.aux"
   "hw2.log"

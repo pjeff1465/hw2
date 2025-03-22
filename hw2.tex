@@ -380,15 +380,29 @@ $R_X (\gamma)$ corresponds to a rotation around the X-axis of the Bloch sphere b
 \]
 For the controlled version $C(R_X(\gamma))$, the geometric interpretation is:
 
-\begin{itemize}
+\begin{enumerate}
     \item When the control qubit is $|0\rangle$:
-    \begin{enumerate}
+    \begin{itemize}
         \item The operator applies $|0\rangle \langle 0| \otimes I$
         \item This means the second qubit (target) remains unchanged
         \item Qubit remains stationary on Bloch sphere
-        \includegraphics[width=\textwidth]{case_one.jpeg}
-    \end{enumerate}
-\end{itemize}
+        \begin{center}
+            \includegraphics[width=0.3\textwidth]{case_one.jpeg}
+        \end{center}
+    \end{itemize}
+    \item When the control qubit is $|1\rangle$:
+    \begin{itemize}
+        \item The operator applies $|1\rangle \langle 1| \otimes R_X (\gamma)$
+        \item The second qubit undergoes a rotation around the X-axis by angle $\gamma$
+        \item Target qubit rotates around the X-axis by angle $\gamma$
+        \begin{center}
+            \includegraphics[width=0.3\textwidth]{case_two.jpeg}
+        \end{center}
+        \item The rotation looks like this becuase it is along the X-axis and since $\gamma \neq \pi$, it will not be a full 180-degree rotation
+        \item Therefore, I have represented a 90-degree rotation along the X-axis which would be represented as $R_X (\frac{\pi}{2}) \text{Where, } \gamma = \frac{\pi}{2}$
+    \end{itemize}
+\end{enumerate}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
