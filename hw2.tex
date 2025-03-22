@@ -15,7 +15,7 @@
 \date{Due: March 22, 2025}
 
 \begin{document}
-\ding{55}
+
 
 \maketitle
 
@@ -294,8 +294,8 @@ With this strategy:
 \begin{itemize}
     \item When (x, y) = (0,0): $a \vee b = 0 \vee 0 = 0 \text{, matches} x \oplus y = 0 \text{ } \checkmark $
     \item When (x, y) = (0,1): $a \vee b = 0 \vee 1 = 1 \text{, matches} x \oplus y = 1 \text{ } \checkmark $
-    \item When (x, y) = (1,0): $a \vee b = 0 \vee 0 = 0 \text{, matches} x \oplus y = 0 \text{ } $ \texttimes
-    \item When (x, y) = (1,1): $a \vee b = 0 \vee 1 = 1 \text{, matches} x \oplus y = 1 \text{ } $ \texttimes
+    \item When (x, y) = (1,0): $a \vee b = 0 \vee 0 = 0 \text{, matches} x \oplus y = 0 \text{ } $ \ding{55}
+    \item When (x, y) = (1,1): $a \vee b = 0 \vee 1 = 1 \text{, matches} x \oplus y = 1 \text{ } $ \ding{55}
 \end{itemize}
 This strategy succeeds in 2 out of 4 cases, giving a success probability of 2/4 = 50\%
 \\
@@ -393,13 +393,14 @@ For the controlled version $C(R_X(\gamma))$, the geometric interpretation is:
     \item When the control qubit is $|1\rangle$:
     \begin{itemize}
         \item The operator applies $|1\rangle \langle 1| \otimes R_X (\gamma)$
-        \item The second qubit undergoes a rotation around the X-axis by angle $\gamma$
+        \item The second qubit (target qubit) undergoes a rotation around the X-axis by angle $\gamma$
         \item Target qubit rotates around the X-axis by angle $\gamma$
         \begin{center}
             \includegraphics[width=0.3\textwidth]{case_two.jpeg}
         \end{center}
         \item The rotation looks like this becuase it is along the X-axis and since $\gamma \neq \pi$, it will not be a full 180-degree rotation
-        \item Therefore, I have represented a 90-degree rotation along the X-axis which would be represented as $R_X (\frac{\pi}{2}) \text{Where, } \gamma = \frac{\pi}{2}$
+        \item Therefore, I have represented a 90-degree rotation along the X-axis which would be represented as $R_X (\frac{\pi}{2}) \text{ where, } \gamma = \frac{\pi}{2}$
+        \item Which occurs if the control qubit (first qubit) is equal to $|1\rangle$
     \end{itemize}
 \end{enumerate}
 
